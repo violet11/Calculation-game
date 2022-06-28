@@ -1,0 +1,80 @@
+mat-label {
+  color:black;
+  font-size: 15px;
+} 
+
+.user-flex {
+  height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-between;
+  border: 2px solid darkgray;
+  border-radius: 10px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+}
+
+.question {
+  font-size: 40px;
+  margin-top: 24px;
+  margin-right: -30px;  
+}
+
+.user-flex button {
+  font-size: 14px;
+  background-color: mediumvioletred;
+}
+
+.user-flex button:hover {
+  color:beige;
+  box-shadow: none;
+}
+
+mat-form-field {
+  width: 90px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+input {
+  font-size: 40px;
+  margin-left: 18px;
+  font-weight: bold;
+}
+
+
+@media only screen and (max-width:450px) {
+  
+  mat-label {
+    font-size: 8px;
+  } 
+
+  .user-flex {
+    height: auto;
+    margin: 15px auto;
+    padding: 10px;
+  }
+
+  .question {
+    font-size: 25px;  
+  }
+
+  .user-flex button {
+    font-size: 14px;
+    background-color: lightgray;
+    color: black;
+  }
+
+  mat-form-field {
+    width: 25%;
+    height: 10%;
+    margin-bottom: -15px;
+  }
+
+  input {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+}

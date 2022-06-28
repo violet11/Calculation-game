@@ -1,0 +1,23 @@
+.result-item {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 70px;
+}
+
+.check {
+    font-size: 30px;
+    color: green;
+}
+
+.spaghetti {
+    color: rgba(255, 0, 0, 0.77);
+}
+
+
+@media only screen and (max-width:450px) {
+    .result-item {
+        font-size: 1.3em;
+        margin: 5px;
+    }
+}

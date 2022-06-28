@@ -1,0 +1,18 @@
+<div>
+    <form class="user-flex" (ngSubmit)="onSubmit()">
+    <h1 class="question"><strong>{{ num1 }} + {{ num2 }}</strong> = </h1>
+        <mat-form-field>
+            <mat-label>sum</mat-label>
+            <input class="inputSum" matInput 
+                [(ngModel)]="inputSum" 
+                [formControl]="sumFormControl" 
+                [errorStateMatcher]="matcher"
+                type="number" name="sum-user" id="sum-user"/>
+            <mat-error 
+                *ngIf="sumFormControl.hasError('required')">
+                Please write a number
+            </mat-error>
+        </mat-form-field>
+        <button mat-fab type="submit" color="primary">Check</button>
+    </form>
+</div>

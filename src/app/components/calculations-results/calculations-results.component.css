@@ -1,0 +1,17 @@
+.deleteBtn {
+    float: right;
+    margin-right: 80px;
+    background-color: #f2faf9a3;
+    color: black;
+}
+
+.deleteBtn:hover {
+    box-shadow: none;
+}
+
+.history {
+    overflow: auto;
+    height: 400px;
+    border-radius: 10px;
+    padding: 20px;   
+}

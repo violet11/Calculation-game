@@ -1,0 +1,17 @@
+<div mat-line class="result-item">
+    <p [ngStyle]="{'color': ((result.num1 + result.num2) !== result.userSum) ?
+         'gray': 'black'}">
+        <strong>{{ result.num1 }} + {{ result.num2 }} = {{ result.userSum }}
+        </strong>
+    </p> 
+    <div class="result-text">
+    <fa-icon class="check"
+        [icon]="check" 
+        *ngIf="result.validateResult">
+    </fa-icon> 
+    <fa-icon class="spaghetti"
+        [icon]="spaghettimonster" 
+        *ngIf="!result.validateResult">
+    </fa-icon>
+    </div>
+</div>

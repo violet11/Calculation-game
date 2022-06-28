@@ -1,0 +1,20 @@
+<div>
+    <app-result-user 
+        (addEvent)="addResult($event)" 
+        (deleteEvent)="deleteResult($event)">
+    </app-result-user>  
+    <button mat-raised-button class="deleteBtn" color="basic" 
+        *ngIf="results.length > 0"
+        (click)="deleteResult(results)">{{ textButton }}
+    </button>
+    <div mat-subheader>{{ text }}</div>
+    <mat-divider></mat-divider>
+    <div class="history">
+        <mat-list>
+            <app-calc-result-item 
+                *ngFor="let result of results" 
+                [result]="result">
+            </app-calc-result-item>
+        </mat-list>
+    </div>
+</div>
