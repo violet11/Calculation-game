@@ -3,6 +3,6 @@ export interface Calculation {
     num1: number,
     num2: number,
     sum?: number,
-    userSum: number,
+    userSum: any,
     validateResult?: boolean
 }

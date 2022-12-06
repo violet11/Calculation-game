@@ -16,7 +16,7 @@ export class CalcResultItemComponent implements OnInit {
   check = faCheck;
   
   
-constructor(private data: ResultService) { }
+constructor() { }
 
   ngOnInit(): void {
   }

@@ -1,3 +1,298 @@
 {
-  "results": []
+  "results": [
+    {
+      "num1": 8,
+      "num2": 9,
+      "userSum": 2,
+      "validateResult": false,
+      "id": 2
+    },
+    {
+      "num1": 8,
+      "num2": 9,
+      "userSum": 3,
+      "validateResult": false,
+      "id": 3
+    },
+    {
+      "num1": 8,
+      "num2": 9,
+      "userSum": 3,
+      "validateResult": false,
+      "id": 4
+    },
+    {
+      "num1": 8,
+      "num2": 9,
+      "userSum": 567,
+      "validateResult": false,
+      "id": 5
+    },
+    {
+      "num1": 8,
+      "num2": 9,
+      "userSum": 6342,
+      "validateResult": false,
+      "id": 6
+    },
+    {
+      "num1": 8,
+      "num2": 9,
+      "userSum": 23,
+      "validateResult": false,
+      "id": 7
+    },
+    {
+      "num1": 8,
+      "num2": 9,
+      "userSum": 2,
+      "validateResult": false,
+      "id": 8
+    },
+    {
+      "num1": 8,
+      "num2": 9,
+      "userSum": 12,
+      "validateResult": false,
+      "id": 9
+    },
+    {
+      "num1": 8,
+      "num2": 9,
+      "userSum": 17,
+      "validateResult": true,
+      "id": 10
+    },
+    {
+      "num1": 4,
+      "num2": 5,
+      "userSum": 9,
+      "validateResult": true,
+      "id": 11
+    },
+    {
+      "num1": 7,
+      "num2": 7,
+      "userSum": 9,
+      "validateResult": false,
+      "id": 12
+    },
+    {
+      "num1": 7,
+      "num2": 7,
+      "userSum": 9,
+      "validateResult": false,
+      "id": 13
+    },
+    {
+      "num1": 7,
+      "num2": 7,
+      "userSum": 14,
+      "validateResult": true,
+      "id": 14
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 2,
+      "validateResult": false,
+      "id": 15
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 3,
+      "validateResult": false,
+      "id": 16
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 4,
+      "validateResult": false,
+      "id": 17
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 8,
+      "validateResult": false,
+      "id": 18
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 9,
+      "validateResult": false,
+      "id": 19
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 9,
+      "validateResult": false,
+      "id": 20
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 9,
+      "validateResult": false,
+      "id": 21
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 9,
+      "validateResult": false,
+      "id": 22
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 9,
+      "validateResult": false,
+      "id": 23
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 8,
+      "validateResult": false,
+      "id": 24
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 8,
+      "validateResult": false,
+      "id": 25
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 8,
+      "validateResult": false,
+      "id": 26
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 13,
+      "validateResult": false,
+      "id": 27
+    },
+    {
+      "num1": 7,
+      "num2": 5,
+      "userSum": 12,
+      "validateResult": true,
+      "id": 28
+    },
+    {
+      "num1": 9,
+      "num2": 4,
+      "userSum": 13,
+      "validateResult": true,
+      "id": 29
+    },
+    {
+      "num1": 1,
+      "num2": 5,
+      "userSum": 9,
+      "validateResult": false,
+      "id": 30
+    },
+    {
+      "num1": 1,
+      "num2": 5,
+      "userSum": 2,
+      "validateResult": false,
+      "id": 31
+    },
+    {
+      "num1": 1,
+      "num2": 5,
+      "userSum": 6,
+      "validateResult": true,
+      "id": 32
+    },
+    {
+      "num1": 2,
+      "num2": 6,
+      "userSum": 2,
+      "validateResult": false,
+      "id": 33
+    },
+    {
+      "num1": 2,
+      "num2": 6,
+      "userSum": 1,
+      "validateResult": false,
+      "id": 34
+    },
+    {
+      "num1": 2,
+      "num2": 6,
+      "userSum": 6,
+      "validateResult": false,
+      "id": 35
+    },
+    {
+      "num1": 2,
+      "num2": 6,
+      "userSum": 7,
+      "validateResult": false,
+      "id": 36
+    },
+    {
+      "num1": 2,
+      "num2": 6,
+      "userSum": 8,
+      "validateResult": true,
+      "id": 37
+    },
+    {
+      "num1": 7,
+      "num2": 4,
+      "userSum": 9,
+      "validateResult": false,
+      "id": 38
+    },
+    {
+      "num1": 7,
+      "num2": 4,
+      "userSum": 14,
+      "validateResult": false,
+      "id": 39
+    },
+    {
+      "num1": 7,
+      "num2": 4,
+      "userSum": 11,
+      "validateResult": true,
+      "id": 40
+    },
+    {
+      "num1": 7,
+      "num2": 8,
+      "userSum": 15,
+      "validateResult": true,
+      "id": 41
+    },
+    {
+      "num1": 7,
+      "num2": 3,
+      "userSum": 10,
+      "validateResult": true,
+      "id": 42
+    },
+    {
+      "num1": 8,
+      "num2": 1,
+      "userSum": 9,
+      "validateResult": true,
+      "id": 43
+    }
+  ]
 }
